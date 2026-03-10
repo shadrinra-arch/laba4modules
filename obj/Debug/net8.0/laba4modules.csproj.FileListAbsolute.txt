@@ -1,0 +1,14 @@
+G:\Modules3KURS\laba4modules\bin\Debug\net8.0\laba4modules.exe
+G:\Modules3KURS\laba4modules\bin\Debug\net8.0\laba4modules.deps.json
+G:\Modules3KURS\laba4modules\bin\Debug\net8.0\laba4modules.runtimeconfig.json
+G:\Modules3KURS\laba4modules\bin\Debug\net8.0\laba4modules.dll
+G:\Modules3KURS\laba4modules\bin\Debug\net8.0\laba4modules.pdb
+G:\Modules3KURS\laba4modules\obj\Debug\net8.0\laba4modules.GeneratedMSBuildEditorConfig.editorconfig
+G:\Modules3KURS\laba4modules\obj\Debug\net8.0\laba4modules.AssemblyInfoInputs.cache
+G:\Modules3KURS\laba4modules\obj\Debug\net8.0\laba4modules.AssemblyInfo.cs
+G:\Modules3KURS\laba4modules\obj\Debug\net8.0\laba4modules.csproj.CoreCompileInputs.cache
+G:\Modules3KURS\laba4modules\obj\Debug\net8.0\laba4modules.dll
+G:\Modules3KURS\laba4modules\obj\Debug\net8.0\refint\laba4modules.dll
+G:\Modules3KURS\laba4modules\obj\Debug\net8.0\laba4modules.pdb
+G:\Modules3KURS\laba4modules\obj\Debug\net8.0\laba4modules.genruntimeconfig.cache
+G:\Modules3KURS\laba4modules\obj\Debug\net8.0\ref\laba4modules.dll

@@ -20,7 +20,7 @@ namespace laba4modules
             Console.WriteLine($"Домашний ПК: {homePC}");
 
             // Регистрируем прототипы
-            var registry = PrototypeRegistry.Instance;
+            var registry = Singleton.Instance;
             registry.RegisterPrototype("office", officePC);
             registry.RegisterPrototype("gaming", gamingPC);
             registry.RegisterPrototype("home", homePC);

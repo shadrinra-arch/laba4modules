@@ -6,30 +6,30 @@ using System.Threading.Tasks;
 
 namespace laba4modules
 {
-    public class Computer : ICloneable
+    
+    // Фабрика для создания конфигураций
+
+    public static class Creator
     {
-        public string CPU { get; set; }
-        public int Memory { get; set; }
-        public string GPU { get; set; }
-        public List<string> Extras { get; set; } = new List<string>();
-
-        public override string ToString()
+        public static Computer CreateOfficePC()
         {
-            return $"Computer(CPU={CPU}, Memory={Memory}GB, GPU={GPU}, Extras=[{string.Join(", ", Extras)}])";
+            var builder = new OfficePCBuilder();
+            var director = new ComputerDirector(builder);
+            return director.Construct();
         }
 
-        // Глубокое клонирование
-        public object Clone()
+        public static Computer CreateGamingPC()
         {
-            var clone = (Computer)MemberwiseClone();
-            clone.Extras = new List<string>(Extras);
-            return clone;
+            var builder = new GamingPCBuilder();
+            var director = new ComputerDirector(builder);
+            return director.Construct();
         }
 
-        // Поверхностное клонирование
-        public Computer CloneShallow()
+        public static Computer CreateHomePC()
         {
-            return (Computer)MemberwiseClone();
+            var builder = new HomePCBuilder();
+            var director = new ComputerDirector(builder);
+            return director.Construct();
         }
     }
     // Абстрактный Builder

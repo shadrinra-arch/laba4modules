@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 namespace laba4modules
 {
     // Потокобезопасный Singleton-регистратор прототипов
-    public sealed class PrototypeRegistry
+    public sealed class Singleton
     {
-        private static readonly Lazy<PrototypeRegistry> instance = new Lazy<PrototypeRegistry>(() => new PrototypeRegistry());
+        private static readonly Lazy<Singleton> instance = new Lazy<Singleton>(() => new Singleton());
         private readonly Dictionary<string, Computer> prototypes = new Dictionary<string, Computer>();
         private static readonly object lockObj = new object();
 
-        public static PrototypeRegistry Instance => instance.Value;
+        public static Singleton Instance => instance.Value;
 
-        private PrototypeRegistry() { }
+        private Singleton() { }
 
         public void RegisterPrototype(string name, Computer prototype)
         {

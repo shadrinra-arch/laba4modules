@@ -12,3 +12,4 @@ G:\Modules3KURS\laba4modules\obj\Debug\net8.0\refint\laba4modules.dll
 G:\Modules3KURS\laba4modules\obj\Debug\net8.0\laba4modules.pdb
 G:\Modules3KURS\laba4modules\obj\Debug\net8.0\laba4modules.genruntimeconfig.cache
 G:\Modules3KURS\laba4modules\obj\Debug\net8.0\ref\laba4modules.dll
+G:\Modules3KURS\laba4modules\obj\Debug\net8.0\laba4modules.sourcelink.json
